@@ -4,7 +4,7 @@ const movieRoute = require('./route/moviesRoute');
 const init = async () => {
   const server = Hapi.server({
     host: 'localhost',
-    port: 5000,
+    port: 4000,
   });
 
   server.route(movieRoute);

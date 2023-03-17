@@ -1,4 +1,4 @@
-const { nanoid } = require('nanoid');
+const nanoid = require('nanoid');
 const movies = require('../data/movies');
 
 const getAllMoviesHandler = () => ({
